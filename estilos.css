@@ -1,0 +1,150 @@
+font-family:  "Noto Serif Khojki" serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.foto{
+    border-radius: 50%;
+    
+   
+
+}
+
+.caja-foto {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+
+body {
+    background-color: rgba(212, 105, 63, 0.769);
+    background: rgb(246,221,212);
+background: linear-gradient(180deg, rgba(246,221,212,1) 13%, rgba(254,175,146,1) 38%, rgba(246,131,89,1) 73%, rgba(255,127,80,1) 100%);
+
+    
+}
+
+.contenido {
+    display: flex;
+    padding-inline: 150px ;
+    gap: 20px;
+
+}
+
+.cv{
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline rgba(0, 0, 0, 0.868);
+    padding-bottom: 30px;
+}
+.contenedor{
+    border-radius: 5px;
+    width: 60%;
+    height: 60%;
+   padding: 20px;
+   margin:0 auto ;
+   background-color: rgb(240, 201, 190);
+   
+   
+    
+}
+
+.caja {
+    margin-bottom: 20px;
+    width: 95%;
+    
+    
+    
+}
+
+.cajita {
+
+    background-color:#f68359;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;  
+}
+
+span {
+    font-weight: bold;
+}
+
+
+
+.datopersonal{
+
+    color: black;
+    line-height: 20px;
+    text-align: left;
+    margin: 20px;
+    order: 1;  
+}
+
+.infoUtil{
+    
+    color: black;
+    line-height: 20px;
+    text-align: left;
+    margin: 20px;
+    
+    
+
+
+    
+    
+}
+.contactos{
+    
+    color: black;
+    line-height: 20px;
+    text-align:left;
+    margin: 20px;
+    max-width: 100%;
+    display: none;
+    
+
+    
+    
+}
+.explaboral {
+    
+    color:  black;
+    line-height: 20px;
+    text-align: left;
+    margin: 20px;
+    order: 2;
+    font-size: 15px;
+}
+
+.edu{
+  
+    color: black;
+    line-height: 20px;
+    text-align: left;
+    margin: 20px;
+    order: 3;
+}
+.telemail, .ol1, .ol2 {
+   padding: 0;
+}
+
+.boton {
+    background-color:#f68359;
+    border-radius: 50px;
+    
+
+}
+
+.informacion {
+    display: block;
+}
+
+
+
