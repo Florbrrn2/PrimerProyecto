@@ -61,7 +61,10 @@ body{
     border: 3px solid var(--gray);
     animation: rotar 10s infinite;
 }
-
+.imgcv:hover{
+    cursor:pointer;
+    
+}
 .nombre{
     color: var(--gray);
     text-align: center;
@@ -174,6 +177,7 @@ body{
 	color: var(--lightgray);
 }
 
+
 .boton{
     cursor: pointer;
     color: var(--gray);
@@ -195,6 +199,10 @@ body{
     display: block;
 
 }
+
+
+       
+    
 
 
 
